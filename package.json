@@ -1,0 +1,9 @@
+{
+  "name": "rubber-stamp",
+  "version": "1.0.0",
+  "description": "a command line interface for approving github pull requests",
+  "main": "index.js",
+  "repository": "https://github.com/revlucio/rubber-stamp",
+  "author": "Luke Elliott <revlucio@gmail.com>",
+  "license": "MIT"
+}
