@@ -5,10 +5,10 @@ jest.mock('request')
 
 describe('auth', () => {
   test('get an auth token', async () => {
-    request.get.mockResolvedValue({ token: 'something' });
-    
+    request.get.mockResolvedValue({ token: 'something' })
+
     const token = await index.getToken('username', 'password')
-    
+
     expect(token).toBe('something')
   })
 })
